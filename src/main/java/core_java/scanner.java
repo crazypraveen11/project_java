@@ -3,9 +3,6 @@ package core_java;
 import java.util.Scanner;
 
 public class scanner {
-
-    
-
     public static void main(String[] args) {
         
         Scanner obj1 = new Scanner(System.in);
@@ -14,7 +11,7 @@ public class scanner {
         int id = obj1.nextInt();
 
         System.out.println("Enter Your Name");
-        String name = obj1.next();
+        String name = obj1.nextLine();
 
         System.out.println("Enter your Age");
         short age = obj1.nextShort();
