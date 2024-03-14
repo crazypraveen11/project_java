@@ -1,6 +1,7 @@
 package core_java;
 
-public class methods {
+public class methods 
+{
     
     public int Myinput()
     {
@@ -9,9 +10,9 @@ public class methods {
     public static void main(String[] args) 
     {                                                       
         methods obj1 = new methods();
-        int no = obj1.Myinput();
+        int a = obj1.Myinput();
 
-        char name = (char) no;
-        System.out.println(name);
+        char b = (char) a;
+        System.out.println(b);
     }
 }
