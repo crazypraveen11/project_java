@@ -28,13 +28,13 @@ public class task1 {
 
          Scanner getting = new Scanner(System.in);
 
-         System.out.println("Enter yout Id");
+         System.out.println("Enter your Id");
          int value = getting.nextInt();
 
          System.out.println("Enter your height");
          float decimal = getting.nextFloat();
 
-         System.out.println("Enter your Phonenuber");
+         System.out.println("Enter your Phonenumber");
          long phone = getting.nextLong();
 
          System.out.println("Enter your initial");

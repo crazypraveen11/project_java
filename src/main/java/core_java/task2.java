@@ -10,9 +10,10 @@ public class task2 {
         return "Ajith";
     }
 
-    public void datavalue(int Id,float weight,long phone,char letter)
+    public void datavalue (String Id,float weight,long phone,char letter)
     {
-        System.out.println("\n" + Id + "\n" + weight + "\n" + phone + "\n" + letter);
+        System.out.println("\n" + "-----Your Details-----");
+        System.out.println("\n" + Id + "\n" + weight + "kg" + "\n" + phone + "\n" + letter);
     }
 
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class task2 {
         Scanner  getobj = new Scanner(System.in);
 
         System.out.println("Enter your Id");
-        int Id = getobj.nextInt();
+        String Id = getobj.next();
 
         System.out.println("Enter your weight");
         float weight = getobj.nextFloat();
