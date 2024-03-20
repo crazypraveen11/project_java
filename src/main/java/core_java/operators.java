@@ -57,8 +57,8 @@ public class operators
          int ab = 5;
          int ba = 2;
 
-         System.out.println("right shift value is " + (ab >> ba)); // a / 2 ^ b  -----> 1
-         System.out.println("left shift value is " + (ab << ba)); // a * 2 ^ b  ------> 20
+         System.out.println("right shift value is " + (ab >> ba)); // a / 2 ^ b  -----> 1    5 / 4
+         System.out.println("left shift value is " + (ab << ba)); // a * 2 ^ b  ------> 20    5 * 4
 
 
     }
