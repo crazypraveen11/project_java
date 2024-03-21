@@ -1,4 +1,4 @@
-package core_java;
+package core_java.ifstatement;
 
 import java.util.Scanner;
 
