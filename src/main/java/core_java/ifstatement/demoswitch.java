@@ -2,9 +2,9 @@ package core_java.ifstatement;
 
 public class demoswitch {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         access("subash");
-
     }
 
     public static void access(String studentname) {

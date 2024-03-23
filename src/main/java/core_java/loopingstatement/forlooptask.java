@@ -31,18 +31,18 @@ public class forlooptask
             
             if ((price > 15000) && (price <= 20000)) 
               {
-                System.out.println("In this price variant we have VIVO V20, VIVO Y51A models...!");
+                System.out.println("In this price variant we have VIVO-V20, VIVO-Y51A models...!");
                 System.out.println("Enter your Model from the above");
                 String model = scan.next();
                 switch (model) {
-                  case "VIVO V20":
+                  case "VIVO-V20":
                     System.out.println("This model price is 20000");
                   break;
-                  case "VIVO Y51A":
+                  case "VIVO-Y51A":
                     System.out.println("This model price is 18000");
                   break;
-                  default:
-                    System.out.println("No other models....!");
+                 default:
+                   System.out.println("No other models....!");
                 }
               }              
             else
