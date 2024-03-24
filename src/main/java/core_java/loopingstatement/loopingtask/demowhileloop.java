@@ -1,4 +1,4 @@
-package core_java.loopingstatement;
+package core_java.loopingstatement.loopingtask;
 
 public class demowhileloop {
     
