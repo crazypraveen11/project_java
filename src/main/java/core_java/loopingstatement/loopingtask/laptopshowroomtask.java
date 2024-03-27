@@ -1,14 +1,12 @@
 package core_java.loopingstatement.loopingtask;
 
 import java.util.Scanner;
-
-public class laptopshowroomtask 
+   public class laptopshowroomtask 
 {
     static Scanner scan = new Scanner(System.in);
 
     public static void laptopvalues()
-    {
-        
+    {    
         for ( int customer_count = 1 ; customer_count <= 3 ; customer_count++ )
         {
             System.out.println("\n Customer no : " + customer_count);
