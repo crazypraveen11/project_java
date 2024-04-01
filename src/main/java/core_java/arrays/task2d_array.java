@@ -1,27 +1,43 @@
 package core_java.arrays;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class task2d_array 
 {
+     
+
     public static void main(String[] args) 
     {
-        int [] [] matrix = { {1,2,3}, {4,5,6}, {7,8,9} };
+        Scanner scanner = new Scanner(System.in);
 
-        for(int row = 0; row < 3; row++)
-        {
-            for(int column = 0; column < 3; column++)
-            {
-                System.out.print((matrix[row][column] + " ") );
-            }
-        } 
-        System.out.println();
-        
-        for(int values[] : matrix)
-        {
-            for(int newvalues : values)
-            {
-                System.out.print( newvalues + " ");
+        System.out.println("Enter the number of rows: ");
+        int rows = scanner.nextInt();
+        System.out.println("Enter the number of columns: ");
+        int columns = scanner.nextInt();
+
+        String[][] iplTeams = new String[rows][columns];
+
+        // Input IPL teams
+        System.out.println("Enter the names of IPL teams :");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                iplTeams[i][j] = scanner.next();
             }
         }
+
+        // Convert to one-dimensional array
+        String[] oneDArray = new String[rows * columns];
+        int index = 0;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                oneDArray[index++] = iplTeams[i][j];
+            }
+        }
+
+        // Print the one-dimensional array
+        System.out.print("---- IPL teams ---- \n");
+        System.out.println(Arrays.toString(oneDArray));
+
         
     }
 }
