@@ -9,9 +9,11 @@ public class insert_update_list_read_arrays
 
     public static void insert_arrays(String place [])
     {
+      System.out.println("You have to enter your 9 favorite place names");
        for( int i = 0 ; i < place.length ; i++ )
          {
-            System.out.println("Enter Your Place Name");
+            
+            System.out.println(" Enter Your " +  i  +  " Place Name");
             String placename = scan.next();
 
             place [i] = placename;

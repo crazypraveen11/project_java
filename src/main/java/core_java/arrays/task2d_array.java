@@ -4,16 +4,14 @@ import java.util.Scanner;
 
 public class task2d_array 
 {
-     
-
     public static void main(String[] args) 
     {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the number of rows: ");
-        int rows = scanner.nextInt();
+        int rows = scan.nextInt();
         System.out.println("Enter the number of columns: ");
-        int columns = scanner.nextInt();
+        int columns = scan.nextInt();
 
         String[][] iplTeams = new String[rows][columns];
 
@@ -21,7 +19,7 @@ public class task2d_array
         System.out.println("Enter the names of IPL teams :");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                iplTeams[i][j] = scanner.next();
+                iplTeams[i][j] = scan.next();
             }
         }
 
@@ -36,8 +34,6 @@ public class task2d_array
 
         // Print the one-dimensional array
         System.out.print("---- IPL teams ---- \n");
-        System.out.println(Arrays.toString(oneDArray));
-
-        
+        System.out.println(Arrays.toString(oneDArray));  
     }
 }
