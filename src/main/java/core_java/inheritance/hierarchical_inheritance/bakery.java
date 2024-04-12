@@ -11,8 +11,7 @@ public class bakery extends Dmart
         bakery obj = new bakery();
 
         obj.Dmart();
+        obj.shops();
         obj.bakery();
-        
     }
-    
 }

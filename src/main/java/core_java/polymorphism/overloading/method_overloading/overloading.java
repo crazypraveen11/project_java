@@ -1,6 +1,6 @@
-package core_java.polymorphism.overloading;
+package core_java.polymorphism.overloading.method_overloading;
 
-public class method_overloading 
+public class overloading 
 {
     public void test1(String name)
     {
@@ -24,7 +24,7 @@ public class method_overloading
 
     public static void main(String[] args) 
     {
-        method_overloading obj = new method_overloading();
+        overloading obj = new overloading();
 
         obj.test1("Praveen");
         obj.test1(21);

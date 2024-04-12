@@ -7,4 +7,4 @@ public class Hod extends management
         System.out.println("HOD in KSR");
     }
     
-}
+} 

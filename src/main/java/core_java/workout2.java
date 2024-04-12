@@ -2,7 +2,7 @@ package core_java;
 
 import java.util.Scanner;
 
-public class workout {
+public class workout2 {
 
     public static void  demovariable(String a, String b)
     {
@@ -23,7 +23,7 @@ public class workout {
        System.out.println("Enter your name ");
        String name = get.next();
       
-       workout.demovariable(data, name);
+       workout2.demovariable(data, name);
     }
 
     

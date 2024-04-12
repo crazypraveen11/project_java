@@ -1,8 +1,6 @@
 package core_java.Abstraction;
-
 public class test_abstraction extends demo_implementation
 {
-
     public void scooty()
     {
         System.out.println("Access125");
@@ -14,8 +12,8 @@ public class test_abstraction extends demo_implementation
 
         obj.scooty();
 
-        String name = obj.employee_name();
-        System.out.println(name);
-        
+        // String name = obj.employee_name();
+        // System.out.println(name);
+        System.out.println("Employee Name is : " + obj.employee_name());
     }
 }

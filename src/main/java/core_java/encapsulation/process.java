@@ -14,9 +14,5 @@ public class process
         System.out.println( "Employee ID is : " + obj.getEmp_id());
         System.out.println( "Employee Age is : " + obj.getEmp_age());
         System.out.println( "Employee Name is " + obj.getEmp_name());
-
-        
-    }
-
-    
+    } 
 }

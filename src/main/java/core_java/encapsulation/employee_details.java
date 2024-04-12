@@ -1,6 +1,4 @@
 package core_java.encapsulation;
-
-
 public class employee_details 
 {
     private int emp_id;
@@ -36,5 +34,5 @@ public class employee_details
     {
         return emp_name;
     }
-    
+     
 }

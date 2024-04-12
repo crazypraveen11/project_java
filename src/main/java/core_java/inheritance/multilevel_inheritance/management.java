@@ -7,4 +7,4 @@ public class management
         System.out.println("Management in KSR");
     }
     
-}
+} 

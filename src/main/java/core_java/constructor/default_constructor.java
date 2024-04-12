@@ -7,7 +7,7 @@ public class default_constructor
         System.out.println("HI SAMPLE");
     }
     // Default Constructor
-    public default_constructor()
+    public  default_constructor()
     {
         System.out.println("HII WELCOME TO OUR COMPANY");
     }
