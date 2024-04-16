@@ -7,11 +7,11 @@ public class demoarrays
 {
     public static void main(String[] args) 
     {
-        // String [] cars = {"BMW","AUDI","PORSCHE","FORD"};
-        // System.out.println(Arrays.toString(cars));
+        String [] cars = {"BMW","AUDI","PORSCHE","FORD"};
+        System.out.println(Arrays.toString(cars));
 
-        // int [] num = {1,2,3,4,5};
-        // System.out.println(Arrays.toString(num));
+        int [] num = {1,2,3,4,5};
+        System.out.println(Arrays.toString(num));
 
         // char [] initials = {'A','J','I','T','H'};
         // System.out.println(Arrays.toString(initials));
