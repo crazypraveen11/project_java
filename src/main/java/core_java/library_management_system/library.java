@@ -10,7 +10,7 @@ public class library implements book_implementation, student_implementation
     static {
         System.out.println("--------------------WELCOME TO ZEALOUS LIBRARY MANAGEMENT SYSTEM--------------------");
     }
-
+ 
     @Override
     public void add_newstudent(student studentdetails) {
         for (int i = 0; i < studentspace.length; i++) {

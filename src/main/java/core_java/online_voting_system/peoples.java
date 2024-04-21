@@ -2,35 +2,32 @@ package core_java.online_voting_system;
 
 public class peoples 
 {
-    private int peoples_voterid;
+    private int voter_id;
     private String peoples_name;
 
-    public  peoples(int peoples_voterid, String peoples_name)
+    public peoples(int voter_id,String peoples_name)
     {
-        this.peoples_voterid = peoples_voterid;
+        this.voter_id = voter_id;
         this.peoples_name = peoples_name;
     }
-
     @Override
     public String toString() {
-        return "peoples [peoples_voterid=" + peoples_voterid + "]";
-    }
-    
-    public void setpeoples_voterid(int peoples_voterid)
-    {
-        this.peoples_voterid = peoples_voterid;
-    }
-    public int getpeoples_voterid()
-    {
-        return peoples_voterid;
+        return "\t <<<< People's Details >>>> \n Voter ID  = " + voter_id + "\n People Name = " + peoples_name + " ";
     }
 
-    public void setpeoples_name(String peoples_name)
-    {
-        this.peoples_name = peoples_name;
+    public int getVoter_id() {
+        return voter_id;
     }
-    public String getpeoples_name()
-    {
+
+    public void setVoter_id(int voter_id) {
+        this.voter_id = voter_id;
+    }
+
+    public String getPeople_name() {
         return peoples_name;
     }
+
+    public void setPeople_name(String people_name) {
+        this.peoples_name = people_name;
+    } 
 }

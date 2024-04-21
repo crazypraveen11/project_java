@@ -10,7 +10,8 @@ public class task1
         System.out.println(numbers[11]);
         
         }
-        catch(Exception ai)   // Arithmetic Exception (zero)
+        catch(ArrayIndexOutOfBoundsException ai)   
+        
         {
             System.out.println( ai + "\n <<< You entered the out of index values >>>");
 

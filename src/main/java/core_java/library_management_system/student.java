@@ -25,7 +25,7 @@ public class student
     public void setStudent_name(String student_name) {
         this.student_name = student_name;
     }
-
+ 
     public int getStudent_id() {
         return student_id;
     }

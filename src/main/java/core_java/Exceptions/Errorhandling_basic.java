@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Errorhandling_basic 
 {
     public static void main(String[] args) 
-    {
-        
+    { 
         try
         {
             Scanner scan = new Scanner(System.in);
@@ -32,8 +31,6 @@ public class Errorhandling_basic
             {
                 System.out.println("Enter non-zero values");
             }
-        }
-        
+        } 
     }
-    
 }
