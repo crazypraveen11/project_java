@@ -23,7 +23,7 @@ public class process implements political_parties_implementation,peoples_impleme
             {
                 party_space[i] = team;
                 System.out.println( team.getPolitical_parties_name() + " has been added successfully..!");   
-                break;
+                return  party_space[i];
             }
          } 
          throw new voting_exception();
