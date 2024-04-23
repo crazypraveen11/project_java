@@ -1,4 +1,4 @@
-package core_java.thread;
+package core_java.Thread;
 
 public class thread_implementation 
 {
