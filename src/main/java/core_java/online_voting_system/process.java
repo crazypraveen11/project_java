@@ -186,14 +186,27 @@ public class process implements political_parties_implementation,peoples_impleme
     @Override
     public peoples addnew_peoples(peoples members) 
     {
-        for(int a = 0; a<people_space.length; a++)
+        try
+        {
+            for(int a = 0; a < people_space.length; a++)
         {
             if (people_space[a] == null) 
             {
                 people_space[a] = members;
                 System.out.println( members.getPeople_name() + " has been added Successfully...!");  
-                break; 
+                return people_space[a];
             }
+            throw new voting_exception();
+        }
+        }
+        catch(voting_exception ve)
+        {
+            System.out.println(ve);
+            System.out.println("\n If you want to add one, you need to delete from this List");
+            listall_peoples();
+            System.out.println("Please select any one from this list \nWhich name you want to delete ");
+            delete_peoples();
+            addnew_peoples(members);
         }
         return members;
     }
@@ -300,7 +313,7 @@ public class process implements political_parties_implementation,peoples_impleme
         int process = scan.nextInt();
 
         switch (process) {
-            case 1:
+            case 1: 
                 System.out.println(" \t <<< You choose to update by Voter ID >>>");
                 System.out.println(" Enter Voter ID");
                 int id = scan.nextInt();

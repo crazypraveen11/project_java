@@ -21,8 +21,7 @@ public class reverseloop1
         int initial = name.length();
 
         
-
-        
+              
     }
     
 }
