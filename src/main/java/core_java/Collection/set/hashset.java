@@ -9,8 +9,8 @@ public class hashset
     {
         //set
         /*
-          no duplicates allowed
-          Random order
+          <<<  No duplicates allowed  >>>
+          <<<  Random order  >>>
          * Types Hashset,Treeset
          * Hashset ---> ( Allow null object )
          */
@@ -21,6 +21,7 @@ public class hashset
         obj.add(21);
         obj.add(21);
         obj.add(" ");
+        
         // duplicates not allowed
         System.out.println("Values " + obj);
 

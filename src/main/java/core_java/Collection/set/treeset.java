@@ -8,9 +8,9 @@ public class treeset
     public static void main(String[] args) 
     {
         TreeSet <Employee_details> emp = new TreeSet<>();
-        //Treeset ---> Not allow null object
-        // Not allow duplicates 
-        // order is by alphabetical order
+        //  Treeset ---> Not allow null object
+        //  Not allow duplicates 
+        //  order is by alphabetical order
         Employee_details emp1 = new Employee_details(1, "Praveen",19);
         Employee_details emp2 = new Employee_details(2, "Ashwin", 21);
         Employee_details emp3 = new Employee_details(3, "Ajith", 20);
@@ -48,7 +48,8 @@ class Employee_details implements Comparable<Employee_details>
     }
 
     @Override
-    public int compareTo(Employee_details od) {
-        return this.emp_age.compareTo(od.emp_age);
+    public int compareTo(Employee_details od) 
+    {
+        return this.emp_name.compareTo(od.emp_name);
     }
 }
